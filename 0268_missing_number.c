@@ -5,4 +5,4 @@ int missingNumber(int* nums, int numsSize) {
         actual_sum += nums[i];
     }
     return expeected_sum - actual_sum;
-} 
+}
