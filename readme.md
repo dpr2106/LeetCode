@@ -36,6 +36,6 @@ A few of the core algorithmic techniques I have implemented:
 
 ---
 <div align="center">
-  <i>"Coding ultimately needs maths, not just coding itself."</i><br>
+  <i>"Don't learn to build. Build to learn."</i><br>
   <b>— Prashanth</b>
 </div>
