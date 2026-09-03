@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" width="200" alt="LeetCode Logo"/>
-  <h1> My LeetCode Grind </h1>
+  <h1> My LeetCode </h1>
   <p><b>Data Structures & Algorithms in C, C++, and Java</b></p>
   
   <p>
