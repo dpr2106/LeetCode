@@ -54,6 +54,6 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
         if (l2 != NULL) l2 = l2->next;
     }
     
-    // Return the actual first digit (skipping the dummy anchor)
+    // Return the actual first digit (skipping the dummy anchor) .
     return dummy.next;
 }
