@@ -1,7 +1,0 @@
-int countCommas(int n) {
-  int   ans = 0;
-for (long long i = 1000; i <= n; i *= 1000) {
-    ans += n - i + 1;
-}
-return ans;
-}
