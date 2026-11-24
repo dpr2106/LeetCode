@@ -6,15 +6,20 @@ public:
 
         for (int i = 0; i < n; i++) {
             long long prod = 1;
-            long long lcm = 1;
+            long long l = 1;
             int g = 0;
 
             for (int j = i; j < n; j++) {
-                prod *= nums[j];
-                lcm = lcm / gcd(lcm, (long long)nums[j]) * nums[j];
-                g = gcd(g, nums[j]);
+                int x = nums[j];
 
-                if (prod == lcm * g) {
+                if (prod > LLONG_MAX / x)
+                    break;
+
+                prod *= x;
+                g = gcd(g, x);
+                l = l / gcd(l, (long long)x) * x;
+
+                if (prod == l * g) {
                     ans = max(ans, j - i + 1);
                 }
             }
